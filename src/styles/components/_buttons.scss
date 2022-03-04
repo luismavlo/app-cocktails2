@@ -1,0 +1,28 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+
+    transition: all 300ms;
+
+    &:focus{
+        outline: none;
+    }
+    
+}
+
+.btn-primary{
+    background-color: $blue-king;
+    border-radius: 2px;
+
+    &:hover{
+        background-color: darken($color: $blue-king, $amount: 15);
+    }
+}
+
+.btn-block{
+    width: 100%;
+}

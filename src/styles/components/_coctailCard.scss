@@ -1,0 +1,18 @@
+.coctailCard__card{
+    align-items: center;
+    border: 1px solid $blue-dark;
+    border-radius: 5px;
+    box-shadow: 0px 3px $blue-dark;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 550px;
+    width: 350px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
